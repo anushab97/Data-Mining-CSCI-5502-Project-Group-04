@@ -74,8 +74,10 @@ cd scripts
 python3 preprocess-example.py
 ```
 
-As general best practice, for any scripts that write to disk, write to the run directory in the scripts/run folder. This folder should only be consider a temp working space for scripts to write to. If there is data post processing, these should be moved to a more permanent directory.   
 
+ For any scripts that write to disk, write to the run directory in the scripts/run folder. This folder should only be considered a temp working space for single runs. If there is desired data to be kept post-processing, data should be moved to a more permanent directory.   
+
+ Below represents the code tree
 
 ```shell
 ── CTU-13-Dataset
