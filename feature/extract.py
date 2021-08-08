@@ -22,11 +22,6 @@ def splitIPv4Add(df_series):
          columns={0:'DstAddr_octet1', 1:'DstAddr_octet2', 2:'DstAddr_octet3', 3:'DstAddr_octet4'})
 
 
- # df_series['DstAddr_octet1'] =  np.where( df_series['DstAddr_octet1'].str.isnumeric(), df_series['DstAddr_octet1'], np.nan)
- # df_series['DstAddr_octet2'] =  np.where( df_series['DstAddr_octet2'].str.isnumeric(), df_series['DstAddr_octet2'], np.nan)
- # df_series['DstAddr_octet3'] =  np.where( df_series['DstAddr_octet3'].str.isnumeric(), df_series['DstAddr_octet3'], np.nan)
- # df_series['DstAddr_octet4'] =  np.where( df_series['DstAddr_octet4'].str.isnumeric(), df_series['DstAddr_octet4'], np.nan)
-
   return df_series 
 
 
