@@ -57,7 +57,7 @@ print(X_train.shape, X_test.shape, y_train.shape, y_test.shape)
 
 
 # instantiate the model (using the default parameters)
-logReg = LogisticRegression()
+logReg = LogisticRegression(max_iter=1000)
 
 # fit the model with data
 logReg.fit(X_train, y_train)
