@@ -7,9 +7,9 @@ Analysis and detection of malicious events in Network traffic
 
 Group Memebers
 ======= 
-Tim Coleman (colemat@colorado.edu)
-Anusha Basavaraja (anba9017@colorado.edu) 
-Christopher Bisbee (chbi4702@colorado.edu)
+- Tim Coleman (colemat@colorado.edu)
+- Anusha Basavaraja (anba9017@colorado.edu) 
+- Christopher Bisbee (chbi4702@colorado.edu)
 
 Project Description 
 ======= 
