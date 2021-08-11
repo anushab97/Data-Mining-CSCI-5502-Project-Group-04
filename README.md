@@ -7,9 +7,9 @@ Analysis and detection of malicious events in Network traffic
 
 Group Memebers
 ======= 
-Tim Coleman  
-Anusha Basavaraja  
-Christopher Bisbee 
+Tim Coleman (colemat@colorado.edu)
+Anusha Basavaraja (anba9017@colorado.edu) 
+Christopher Bisbee (chbi4702@colorado.edu)
 
 Project Description 
 ======= 
@@ -25,7 +25,7 @@ Questions to answer?
 - What are the preprocessing tasks that needs to be done to prep the dataset for Data mining task?
 - What are the classification techniques used to classify the netflow data into benign and malicious classes?
 - How to compare different supervised ML models to detect the botnet traffic?
-What future work can be performed?
+- What future work can be performed?
 
 Knowledge Gained and Applied
 =======
@@ -55,7 +55,8 @@ TOOLS
 - Scapy - https://scapy.net/
 
 ## Machine Learning/Data Analysis
-- Scikit-learn for implementing Machine Learning in Python: https://scikit-learn.org/stable/
+- Scikit-learn: https://scikit-learn.org/stable/
+- Sklearn: https://scikit-learn.org/stable/supervised_learning.html#supervised-learning
 
 ## Database Storage
 - CSV flat files
