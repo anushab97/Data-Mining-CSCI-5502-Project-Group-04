@@ -1,25 +1,44 @@
 Data-Mining-CSCI-5502-Project-Group-04
+ 
+
+  
+Analysis and detection of malicious events in Network traffic
 =======
 
-Summer 2021 course Data mining project (CSCI 5502)
+Group Memebers
+======= 
+Tim Coleman  
+Anusha Basavaraja  
+Christopher Bisbee 
 
-As IoT and network related devices keep
-increasing at a rapid rate, the attack surface also
-increases allowing malicious actors to gain access
-to systems and cause damage and/or extort
-money for personal gain.
-This repository aims to understand a commonly
-known type of malware that is associated with
-botnet type of cybercrime. This type of malware
-normally operates as a command and control on
-the network of the infected where the infected
-device connects to the central control agent to
-receive instructions such as DDoS. This paper
-looks closely at the corresponding network
-traffic and uses data mining and machine
-learning techniques to try and predict whether a
-network pattern is likely malicious or benign.
-  
+Project Description 
+======= 
+
+As the number of IoT and network related devices keeps growing at an exponential rate, security is a major concern among network administrators and companies at large trying to secure the networks and devices from malicious attacks such as ransomware, spyware, DDoS, and other types of attacks.
+
+The goal of our project was to analyze and learn interesting patterns from network traffic that contains known malicious intent in an effort to try and prevent attacks from happening and mitigating loss.
+
+There are published data sets such as CTU-13 which contain netflow network captures that are classified as benign or malicious. Part of the goal for this project would be to build a machine learning model in an attempt to detect malicious events and optimize the balance of false positives to false negative ratios and maximize the true positive detection rate.
+
+Questions to answer? 
+=======
+- What are the preprocessing tasks that needs to be done to prep the dataset for Data mining task?
+- What are the classification techniques used to classify the netflow data into benign and malicious classes?
+- How to compare different supervised ML models to detect the botnet traffic?
+What future work can be performed?
+
+Knowledge Gained and Applied
+=======
+- Using data mining tools such as Pandas, Scipy, Sklearn, Matplotlib
+- Interpreting results such Precision, Recall, Sensitivity, Specificity, ROC, AP
+- Feature extraction (e.g. correlations)
+
+
+Presentation and Paper
+=======
+- [Presentation Video](04_AnalysisAndDetectionOfMaliciousEventsInNetworkTraffic_Part6_Video.mp4)  
+- [Presentation Slides](04_AnalysisAndDetectionOfMaliciousEventsInNetworkTraffic_Part6.pdf)  
+- [Final Paper](04_AnalysisAndDetectionOfMaliciousEventsInNetworkTraffic_Part4.pdf)
 
 DATA
 =======
@@ -27,16 +46,11 @@ DATA
 Dataset 1: CTU-13
 https://www.stratosphereips.org/datasets-ctu13
 
-Dataset 2: IoT23
-https://www.stratosphereips.org/datasets-iot23
-
-
 
 TOOLS
 =======
 
 ## Preprocessing/Formating
-- PyPCAPKit for extracting PCAP file: https://pypi.org/project/pypcapkit/
 - Netflow: https://pypi.org/project/netflow/
 - Scapy - https://scapy.net/
 
@@ -45,13 +59,8 @@ TOOLS
 
 ## Database Storage
 - CSV flat files
-- hdf5 library: https://www.hdfgroup.org/solutions/hdf5/
 ## Visualization
-- Plotly https://plotly.com/python/
 - Matlab https://matplotlib.org/  
-
-
-
 
 
 CODE ORGANIZATION
